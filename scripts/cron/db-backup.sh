@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 PATH_TO_MAGENTO=$1
 DB_NAME=$2
 DATETIME=$(date +'%F_%T')
@@ -33,3 +35,5 @@ cp /root/_db/latest/$DB_NAME-$DATETIME.sql.gz /root/_db/archive/DB_NAME-$DATETIM
 echo "Done copy latest to archive"
 
 echo "DONE"
+
+set +e
