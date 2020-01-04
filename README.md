@@ -4,13 +4,13 @@
 
 Use `git` to get the scripts onto remote servers or local machines
 
-`git clone https://github.com/thisisandrew/magento-db-sync-tools.git ~/.tools/magento-db-sync-tools.git`
+`git clone https://github.com/thisisandrew/magento-db-sync-tools.git ~/.tools/magento-db-sync-tools`
 
 ## scripts/cron
 
 Deploy into a crontab like (for the same user that cloned the repo)
 
-`0 22 * * * ~/.tools/magento-db-sync-tools/scripts/cron/db-backup.sh >> /root/cron.log`
+`0 22 * * * ~/.tools/magento-db-sync-tools/scripts/cron/db-backup.sh {"path/to/magento"} {database-name} >> /root/cron.log`
 
 ## scripts/sync
 
