@@ -1,4 +1,4 @@
-# Tools to backup and sync back Magento Databses from remote hosts
+# Tools to Backup and Sync back Magento Databases from Remote Hosts
 
 ## Deploy
 
