@@ -5,6 +5,7 @@
 Use `git` to get the scripts onto remote servers or local machines
 
 `mkdir /root/.tools`
+
 `git clone https://github.com/thisisandrew/magento-db-sync-tools.git ~/.tools/`
 
 ## scripts/cron
