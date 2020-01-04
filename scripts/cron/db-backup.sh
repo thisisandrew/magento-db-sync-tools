@@ -29,7 +29,7 @@ echo "Done dump sanitized database"
 
 #Keep a copy of the latest in archive
 echo "Copy latest to archive"
-cp /root/_db/latest/DB_NAME-$DATETIME.sql.gz /root/_db/archive/DB_NAME-$DATETIME.sql.gz
+cp /root/_db/latest/$DB_NAME-$DATETIME.sql.gz /root/_db/archive/DB_NAME-$DATETIME.sql.gz
 echo "Done copy latest to archive"
 
 echo "DONE"
